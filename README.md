@@ -34,7 +34,14 @@ scripts/
 sql/
 docker-compose.yml
 ```
+## Estrutura
 
+- `dags/` – DAGs do Airflow
+- `fake-api/` – API utilizada para testes
+- `scripts/` – Scripts auxiliares
+- `sql/` – Script de criação das tabelas
+- `docker-compose.yml` – Ambiente completo da aplicação
+  
 ## Tecnologias utilizadas
 
 * Apache Airflow 2.9
